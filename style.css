@@ -1,0 +1,20 @@
+@import url("styles/nav.css");
+@import url("styles/header.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas-parte1.css");
+@import url("styles/vagas-parte2.css");
+@import url("styles/depoimentos.css");
+@import url("styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+    font-family: 'Inter', sans-serif;
+    --vermelho: #8E2424;
+    --cinza: #667085;
+    --preto: #101828;
+    --branco: #FFFFFF
+}
+
+body{
+    background: var(--branco);
+}

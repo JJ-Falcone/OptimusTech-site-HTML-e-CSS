@@ -1,0 +1,40 @@
+.vagas-parte2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 28% 6rem 28%;
+    gap: 2rem;
+}
+
+
+.vaga__categoria{
+    color: var(--preto);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-top: 4rem;
+}
+
+.vaga__card{
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    border: 1px solid #EAECF0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.vaga__titulo{
+    color: var(--preto);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem; 
+}
+
+.vaga__infos{
+    color: var(--cinza);
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}

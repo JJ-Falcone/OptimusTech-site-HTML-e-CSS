@@ -1,0 +1,62 @@
+nav{
+    padding: 1.75rem 7rem;
+}
+
+nav, nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+.logo{
+    gap: 0.5rem;
+    margin-right: 7.44rem;
+}
+
+.logo h2{
+    color: #3A404E;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.paginas{
+    gap: 2rem;
+    margin-right: auto;
+}
+
+.paginas a{
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.botoes{
+    gap: 1.87rem;
+}
+
+.botoes__entrar{
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+
+}
+
+.botoes__cadastrar{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.5rem;
+    background: var(--vermelho);
+}
